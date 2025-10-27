@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maior Número</title>
+  <link rel="stylesheet" href="style.css"> <!-- ligação com o CSS -->
+</head>
+<body>
+  <div class="caixa">
+    <!-- arquivo: index.html -->
+    <form action="logica.php" method="post">
+      <div class="comparador-box">
+        <h3>Comparar valores</h3>
+        <div class="comparador-container">
+          <label for="num1">Número 1:</label>
+          <input type="number" name="num1" id="num1" required>
+
+          <label for="num2">Número 2:</label>
+          <input type="number" name="num2" id="num2" required>
+          <!--type=number garante que seja inserido apenas numeros-->
+
+          <label for="comparador">Operador:</label>
+          <select id="comparador" name="comparador" class="comparador">
+            <option value=">">Maior que ( > )</option>
+            <option value="<">Menor que ( < )</option>
+            <option value=">=">Maior ou igual ( ≥ )</option>
+            <option value="<=">Menor ou igual ( ≤ )</option>
+            <option value="=">Igual ( = )</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
