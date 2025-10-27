@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOMA DE NUMEROS PARES</title>
+  <link rel="stylesheet" href="style.css"> <!-- ligação com o CSS -->
+</head>
+<body>
+  <div class="caixa">
+    <!-- arquivo: index.html -->
+    <form action="logica.php" method="post">
+      <div class="Descobre-box">
+        <h3>Insira um Numero</h3>
+        <div class="Descobre-container">
+
+          <label for="num1">Número:</label>
+          <input type="number" name="num1" id="num1" required>
+          
+          <label for="num2">Número 2:</label>
+          <input type="number" name="num2" id="num2" required>
+          <!--type=number garante que seja inserido apenas numeros-->
+          
+        </div>
+       <label for="operador">Operação:</label>
+    <select name="op" id="operador" required>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">×</option>
+        <option value="/">÷</option>
+    </select>
+      <button type="submit">Calcular</button>
+    </form>
+  </div>
+</body>
+</html>
