@@ -1,0 +1,83 @@
+body {
+      height: 100vh; /* ocupa a tela toda */
+      margin: 0;
+      display: flex;
+      justify-content: center; /* centro horizontal */
+      align-items: center; /* centro vertical */
+      background-color: #9488fdcc;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Caixa externa */
+    .caixa {
+      background: #fff;
+      border: 2px solid #9d00e6d2;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    /* Título */
+    .Descobre-box h3 {
+      margin-top: 0;
+      color: #000;
+      border-bottom: 1px solid #9d00e6d2;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+
+    /* Container do comparador */
+    .Descobre-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    /* Label */
+    .comparador-container label {
+      font-weight: 600;
+      color: #333;
+    }
+
+    /* Select */
+    .comparador {
+      background-color: #fff;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #333;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .comparador:hover {
+      border-color: #3d00e6;
+    }
+
+    .comparador:focus {
+      outline: none;
+      border-color: #a500e6;
+      box-shadow: 0 0 4px rgba(138, 0, 230, 0.5);
+    }
+
+    /* Botão */
+    button {
+      background: #9d00e6d2;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #290185;
+    }
