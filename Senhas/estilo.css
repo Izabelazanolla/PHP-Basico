@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #afe8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: #0295cfab;
+    padding: 20px 30px ;
+    border-radius: 12px;
+    box-shadow: 0 50 10px rgba(252, 251, 251, 0.1);
+    text-align: center;
+}
+
+input[type=number] {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+button {
+    background: #00832c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #02520f;
+}
+
+.senha {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #222;
+}
+
+code {
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

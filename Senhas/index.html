@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🔐 Gerador de Senhas Seguras</h2>
+        <form method="post" action="logica.php">
+            <label>
+                Tamanho:
+                <input type="number" name="tamanho" value="12" min="4" max="64">
+            </label>
+
+            <label><input type="checkbox" name="maiusculas" checked> Incluir Letras Maiúsculas</label>
+            <label><input type="checkbox" name="minusculas" checked> Incluir Letras Minúsculas</label>
+            <label><input type="checkbox" name="numeros" checked> Incluir Números</label>
+            <label><input type="checkbox" name="simbolos" checked> Incluir Símbolos</label>
+
+            <button type="submit">Gerar Senha</button>
+        </form>
+    </div>
+</body>
+</html>
